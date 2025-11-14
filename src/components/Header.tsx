@@ -1,4 +1,4 @@
-import { Scale, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "./ui/button";
 import { navigation } from "../data/navigation";
@@ -20,12 +20,9 @@ export function Header() {
           {/* Logo */}
           <button 
             onClick={() => scrollToSection("#home")}
-            className="flex items-center gap-2 hover:opacity-80 transition-opacity cursor-pointer"
+            className="flex items-center gap-3 hover:opacity-80 transition-opacity cursor-pointer"
           >
-            <Scale className="w-8 h-8 text-yellow-500" strokeWidth={1.5} />
-            <span className="text-xl">
-              <span className="text-yellow-500">LR</span> ADVOGADOS
-            </span>
+            <img src="/src/public/logo.png" alt="LR ADVOGADOS" className="h-12 w-full" />
           </button>
 
           {/* Desktop Menu */}
