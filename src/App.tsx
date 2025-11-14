@@ -11,6 +11,7 @@ import { Process } from "./components/Process";
 import { Testimonials } from "./components/Testimonials";
 import { FAQ } from "./components/FAQ";
 import { Blog } from "./components/Blog";
+import { FloatingWhatsApp } from "./components/FloatingWhatsApp";
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
       <Blog />
       <Contact />
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }
