@@ -22,7 +22,7 @@ export function Header() {
             onClick={() => scrollToSection("#home")}
             className="flex items-center gap-3 hover:opacity-80 transition-opacity cursor-pointer"
           >
-            <img src="/src/public/logo.png" alt="LR ADVOGADOS" className="h-12 w-full" />
+            <img src="/logo.png" alt="LR ADVOGADOS" className="h-10 w-auto" />
           </button>
 
           {/* Desktop Menu */}

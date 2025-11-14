@@ -10,7 +10,7 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src="/src/public/logo.png" alt="LR ADVOGADOS" className="h-10 w-auto" />
+              <img src="/logo.png" alt="LR ADVOGADOS" className="h-10 w-auto" />
             </div>
             <p className="text-zinc-400 mb-4">
               {footerData.description}
